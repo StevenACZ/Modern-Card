@@ -17,7 +17,7 @@ a {
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
-    background-color: coral;
+    background: linear-gradient(to top, coral, red);
     font-family: Arial, Helvetica, sans-serif;
 
     display: flex;

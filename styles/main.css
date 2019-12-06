@@ -13,6 +13,7 @@ img {
 body {
     height: 100vh;
     background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
 
     display: flex;
     justify-content: center;
@@ -40,9 +41,32 @@ article {
     MAIN
     ----------------*/
     .main {
-        background-color: blanchedalmond;
-        padding: 100px 0px;
+        background-color: white;
+        text-align: center;
     }
+
+        /*.user_info*/
+        .user_info {
+            padding: 20px 0;
+        }
+
+            .user_info > p {
+                color: #4BA37F;
+            }
+
+            .user_info > h1 {
+                margin-top: 7px;
+                margin-bottom: 5px;
+            }
+
+        /*.user_skills*/
+        .user_skills {
+            padding: 10px 0 20px 0;
+            list-style: none;
+
+            display: flex;
+            justify-content: space-evenly;
+        }
 
     /*----------------
     FOOTER

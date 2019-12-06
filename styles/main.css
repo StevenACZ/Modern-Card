@@ -1,0 +1,54 @@
+/*----------------
+GLOBALES
+----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    height: 100vh;
+    background-color: coral;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------
+ARTICLE
+----------------*/
+article {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 0px black;
+}
+
+    /*----------------
+    HEADER
+    ----------------*/
+    .header {
+        
+    }
+
+    /*----------------
+    MAIN
+    ----------------*/
+    .main {
+        background-color: blanchedalmond;
+        padding: 100px 0px;
+    }
+
+    /*----------------
+    FOOTER
+    ----------------*/
+    .footer {
+        background-color: green;
+        padding: 40px;
+    }
+

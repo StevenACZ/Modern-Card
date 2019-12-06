@@ -10,7 +10,12 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     background-color: coral;
     font-family: Arial, Helvetica, sans-serif;
@@ -90,7 +95,19 @@ article {
     FOOTER
     ----------------*/
     .footer {
-        background-color: green;
-        padding: 40px;
+        text-align: center;
     }
+
+        .footer > a {
+            box-shadow: 0px 0px 7px 0px #f76849;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #f76849;
+            display: inline-block;
+            padding: 25px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
 
